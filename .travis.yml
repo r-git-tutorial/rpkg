@@ -2,9 +2,9 @@ language: r
 cache: packages
 
 r:
-#  - oldrel
   - release
 #  - devel
+#  - oldrel
 
 before_cache: Rscript -e 'remotes::install_cran("pkgdown")'
   deploy:
