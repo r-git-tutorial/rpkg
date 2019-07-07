@@ -2,9 +2,12 @@
 % Please edit documentation in R/basic.R
 \name{add}
 \alias{add}
-\title{A function for adding}
+\alias{minus}
+\title{Functions for adding and subtracting}
 \usage{
 add(x, y)
+
+minus(x, y)
 }
 \arguments{
 \item{x}{a number}
@@ -15,8 +18,8 @@ add(x, y)
 a number
 }
 \description{
-A really good adding function.
-Perhaps the best function ever!
+A really good adding/subtracting function.
+If Carlsberg made adding functions, they'd make a function like this.
 
 A work of pure genius.
 }
