@@ -1,4 +1,4 @@
-3Type: Package
+Type: Package
 Package: rpkgMin
 Title: A Dummy Package
 Version: 0.1.0
@@ -6,6 +6,7 @@ Author: Colin Gillespie
 Maintainer: Colin Gillespie <colin@jumpingrivers.com>
 URL: https://www.jumpingrivers.com
 Description: A dummy package to illustrate travis.
+Suggests: testthat
 License: GPL-2 | GPL-3
 Encoding: UTF-8
 LazyData: true
