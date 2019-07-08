@@ -8,6 +8,7 @@ r:
 
 before_cache:
   - Rscript -e 'remotes::install_cran("pkgdown")'
+  - Rscript -e 'remotes::install_cran("RPushbullet")'
   - echo $TRAVIS_R_VERSION
 
 deploy:
