@@ -12,9 +12,7 @@ before_cache:
 
 deploy:
     provider: script
-    script:
-      - Rscript -e 'pkgdown::deploy_site_github()'
-      - Rscript -e 'RPushbullet::pbPost("note",
+    script: Rscript -e 'pkgdown::deploy_site_github(); RPushbullet::pbPost("note",
                                   "Where did the name Jumping Rivers come from?",
-                                    apikey = Sys.getenv("RPUSHBULLET"))'
+                                  apikey = Sys.getenv("RPUSHBULLET"))'
     skip_cleanup: true
